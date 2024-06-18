@@ -1,0 +1,650 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    max-width: 90%;
+    /* padding-left: 6rem; */
+    /* padding-right: 6rem; */
+  }
+  .signIn{
+    background-color: red;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    width: 5rem;
+    padding: .5rem;
+  }
+  nav button a{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .box{
+    background-image: url(./img/NG-en-20240527-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 50%;
+    /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img/NG-en-20240527-popsignuptwoweeks-perspective_alpha_website_small.jpg); */
+    background-size: cover; 
+  }
+  .section-1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top:12rem;
+  }
+  .section-1 h3{
+    color: white;
+    font-size:3rem;
+    font-weight: 800;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .section-1 h2{
+    color: white;
+    font-size:1.5rem;
+    font-weight: 500;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .section-1 p{
+    color: white;
+    font-size:1.2rem;
+    font-weight: 200;
+    padding-top: 1.5rem;
+  }
+  .section-1 input{
+    width: 40%;
+    height: 2rem;
+   background-color: transparent;
+   font-weight: bolder;
+   color: black;
+   padding-left:1.4rem;
+   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .section-1 button{
+    padding: 0.5rem;
+    color: white;
+    margin-top: 3rem;
+    background-color: red;
+    border:none;
+    border-radius: 0.2rem;
+  }
+  .section-1 button a{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: black;
+    height: 100vh;
+    border-top: 8px solid rgb(45, 45, 45);
+  }
+  .section-2 h3{
+    color: white;
+    font-size:2rem;
+    font-weight: 800;
+    line-height: 2;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .section-2 p{
+    color: white;
+    font-size:1.2rem;
+    font-weight: 200;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .section-2b{
+    position: relative;
+    top: -11rem;
+    margin-right: 7.8rem;
+
+  }
+  .section-2a{
+    position: relative;
+    margin-left: 7.8rem;
+    width: 50%;
+  }
+  .section-2b video{
+  position: relative;
+  top: 23.5rem;
+  left: 4.4rem;
+ }
+ .section-3{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  auto;
+    background-color: black;
+    height: 100vh;
+    border-top: 8px solid rgb(45, 45, 45);
+ }
+ .section-3 .mobile{
+    position: relative;
+    right: 28%;
+    bottom: 80px;
+
+ }
+ .section-3a
+  {
+    margin-left: 20%;
+  }
+  .section-3b{
+    margin-right: 20%;
+  }
+ .section-3b h3{
+    color: white;
+    font-size:2rem;
+    font-weight: 800;
+    line-height: 1;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+  }
+  .section-3b p{
+    color: white;
+    font-size:1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .boxx{
+    border: 2px solid grey;
+    display: flex;
+    width: 300px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    position: absolute;
+    left: 220px;
+    background-color: #000;
+    padding: 0 1em;
+}
+.boxx img{
+    width: 60px;
+}
+.boxx .png{
+    position: relative;
+    left: -25px;
+}
+.boxx .p-1{
+    color: white;
+    font-size: 1em;
+    position: relative;
+    font-family: sans-serif;
+    left: -35px;
+    bottom: 10px;
+}
+.boxx .p-2{
+    color: #0071eb;
+    position: absolute;
+    top: 48px;
+    left: 72px;
+    font-size: .7em;
+}
+.boxx .gif{
+    position: absolute;
+    right: 1px;
+}
+  .section-4{
+    display: flex;
+    border-top: 8px solid rgb(45, 45, 45);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    
+}
+.section-4a{
+    width: 52%;
+    justify-content: left;
+    padding: 8em;
+    justify-content: left;  
+}
+.section-4a h3{
+    color: white;
+    font-size:2rem;
+    font-weight: 800;
+    line-height: 2;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: left;
+}
+.section-4a p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 66%;
+    text-align: justify;
+    font-weight: 400; 
+    color: white;
+    line-height: 1;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif; 
+}
+.section-5{
+    border-top: 8px solid rgb(45, 45, 45);
+      background-color: #000;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4em 5rem;
+      height: 80vh;
+    
+}
+.section-5a{
+    width: 45%;
+    padding: 0;
+}
+.section-5b{
+    width: 50%;
+    color: white;
+}
+
+.section-5b h3{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.section-5b p{
+    text-align: left;
+    color: white;
+    font-size: 1.21rem;
+    font-weight: 500;
+    padding-top: 1.3rem;
+}
+.section-6{
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    border-top: 8px solid rgb(45, 45, 45);
+}
+.section-6a{
+    margin-bottom: 1.3rem;
+}
+.bd-1{
+background-color:rgb(45, 45, 45);
+}
+.section-6a h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.section-6c{
+    padding-top:0.7rem;
+    padding-bottom: 0.7rem;
+    margin-bottom: 3.2rem;
+}
+.section-6c h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    line-height: 3;
+}
+.section-6c input{
+    width: 19rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: thin solid lightslategray;
+    padding: 1rem;
+}
+.section-6c button{
+    background-color:red;
+    width: 13rem;
+    height: 2.5rem;
+    font-weight: 700;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+.section-6c button a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+   
+}
+.section-6c button:hover{
+    background-color: rgba(255, 0, 0, 0.47)
+  
+
+}
+.section-7{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-inline: auto;
+    border-top: 10px solid rgb(45, 45, 45);
+    background-color: #000;
+    color: white;
+    padding: 3em 20em 1em 5em;
+}
+
+.section-7 ul{
+    line-height: 2em;
+    text-align: left;
+}
+
+.section-7 ul li{
+    list-style-type: none;
+}
+
+.section-7 ul li a{
+    color: grey;
+}
+
+.section-8{
+    background-color: black;
+    padding:1em 8em;
+    margin-right: 20px;
+    width: 25%;
+}
+
+.section-8 select{
+    color: white;
+    background-color: black;
+    padding: .3em;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.section-8 p{
+    color: grey;
+    padding-top: 1.5em;
+    padding-bottom: 4em;
+}
+
+
+
+
+
+
+
+/* media query */
+@media(max-width:867px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-2{
+        height: fit-content;
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+
+    }
+    
+    .section-2a{
+        text-align: center;
+        margin-inline: auto;
+        width: 100%;
+
+    }
+    .section-2b{
+        position: relative;
+        top: -350px;
+        margin-inline: auto;
+
+
+    }
+    .section-3{
+        height: 150vh;
+        flex-wrap: wrap;
+    }
+    .section-3 .section-3a{
+        justify-content: center;
+        align-content: center;
+        margin-top: 15em;
+        left: -150px;
+    }
+    .section3 .section3b{
+        width: 100%;
+        margin-inline: auto;
+        margin-top: -90em;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .section-3b h3{
+        text-align: center;
+    }
+
+    .section-3b p{
+        text-align: center;
+    }
+    .boxx{
+        position: relative;
+        left: 150px;
+        bottom: 250px;
+    }
+    .mobile{
+        position: relative;
+        left:-50px;
+    }
+    .section-5{
+        height: 150vh;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .section-5b{
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .section-5a img{
+        margin-left: -150px;
+    }
+}
+@media(max-width:757px){
+    .section-2b{
+        position: relative;
+        margin-inline: auto;
+    }
+}
+@media(max-width:717px){
+   .section-2b{
+    position: relative;
+    width: 50%;
+    /* right: 75%; */
+   }
+   .section-3b{
+    margin-bottom: -50px;
+   }
+   .section-3 p{
+    text-align: center;
+    font-size: 80%;
+    font-weight: 800;
+   }
+   .boxx{
+    position: relative;
+    left: 150px;
+    bottom: 250px;
+   }   
+}
+@media(max-width:661px){
+    .section-3a .mobile{
+        width: 120px;
+        height: 120px;
+    }
+    .section-3a .boxx{
+        position: relative;
+        width: 100px;
+        right: 30px;
+    }
+}
+@media(max-width:575px){
+    .section-2b{
+        position: relative;
+        width: 50%;
+    }
+    .section-2b video{
+        width:200px;
+        height: 200px;
+    }
+    .section-2b img{
+        width:300px;
+        height:200px;
+        position: relative;
+        top: 170px;
+        left: 20px;
+    }
+}
+@media(max-width:550px){
+    .section-7{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 4em;
+    }
+}
+@media(max-width:542px){
+    .section-2{
+        width: fit-content;
+    }
+    .boxx{
+        position: relative;
+        left: 10px;
+        width: 250px;
+        bottom: 250px;
+    }
+}
+@media(max-width:538px){
+    .section-2{
+            width: fit-content;
+    }
+    .section-2b{
+            position: relative;
+            left: -100px;
+    }            
+}
+ @media(max-width:485px){
+    .section-5a img{
+        margin-right:20px;
+        width: 300px;
+        height: 200px;
+    }
+    .section-3a .mobile{
+        width: 200px;
+        height: 150px;
+    }
+    .section-3a .boxx{
+        position: relative;
+        width: 50px;
+        right: 100px;
+    }
+    .section-4{
+        text-align: center;
+    }
+
+ }
+@media(max-width:448px){
+    .boxx{
+        position: relative;
+        left: 90px;
+        bottom: 250px;
+    }
+    .mobile{
+        position: relative;
+        width: 20%;
+    }
+    .section-2{
+        height: 120vh;
+    }
+    .section-2 .section2b img{
+        margin-top: -100px;
+    }
+    .section-2 .section2b video{
+        top: 40px;
+        left: 130px;  
+    }
+    .section-2a p{
+        font-size: 20%;
+        text-align: center;
+    }
+    .section-4a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}  
+@media(max-width:330px){
+.boxx{
+    width: 200px;
+}
+.mobile{
+    width: 200px;
+    position: relative;
+    left: 20px;
+}
+.section-3b{
+    margin-bottom: 50px;
+    margin-inline: auto;
+}
+.section-4{
+    display: block;
+    margin-inline: auto;
+}
+.section-4a p{
+    
+
+    margin-inline: auto;
+}
+}    
+@media(max-width:315px){
+    .section-8{
+        flex-wrap: wrap;
+        width: 150%;
+    }
+    .section-7{
+        width: 150%;
+    }
+}
+@media(max-width:220px){
+    .section-8{
+        width: 200%;
+        display: block;
+    }
+    .section-7{
+        width: 200%;
+    }
+}
+@media(max-width:160px){
+    .section-8{
+        width: 350%;
+    }
+    .section-7{
+        width: 350%;
+    }
+}
+
+
+
+
+
+
+    
+
+
+
